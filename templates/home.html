@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Detection & Report Analyzer</title>
+    <style>
+        /* Styling as per your original code */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+        .container {
+            width: 300px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 18px;
+            margin: 0;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select an Option</h1>
+        <a class="button" href="{{ url_for('breast_cancer') }}">Breast Cancer Detection</a>
+        <a class="button" href="{{ url_for('cervical_cancer') }}">Cervical Cancer Detection</a>
+        <a class="button" href="{{ url_for('symptom_bot') }}">Symptom Bot</a>
+        <button class="button">Report Analyzer</button>
+    </div>
+</body>
+</html>

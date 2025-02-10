@@ -1,0 +1,546 @@
+{
+  "intents":[
+    {
+      "tag": "lung_cancer",
+      "queries": [
+        "What are the symptoms of lung cancer?",
+        "How is lung cancer diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of lung cancer may include:\n- Persistent cough that worsens over time.\n- Coughing up blood or rust-colored sputum.\n- Chest pain that is often worse with deep breathing, coughing, or laughing.\n- Shortness of breath.\n- Wheezing.\n- Unexplained weight loss.\n- Fatigue.\n- Frequent lung infections, such as pneumonia or bronchitis.",
+        "Diagnosis of lung cancer involves several steps:\n1. *Physical Exam and History: Review of symptoms and medical history.\n2. **Imaging Tests:\n   - **Chest X-ray: To look for abnormal masses.\n   - **CT Scan: Provides detailed images of the lungs.\n3. **Sputum Cytology: Examining mucus for cancer cells.\n4. **Biopsy: Taking a sample of lung tissue for analysis.\n5. **PET Scan*: To determine if cancer has spread."
+      ]
+    },
+    {
+      "tag": "lymphoma",
+      "queries": [
+        "What are the symptoms of lymphoma?",
+        "How is lymphoma diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of lymphoma may include:\n- Swollen lymph nodes in the neck, armpit, or groin.\n- Unexplained weight loss.\n- Fever.\n- Night sweats.\n- Fatigue.\n- Itchy skin.\n- Pain in the chest, abdomen, or bones.",
+        "Diagnosis of lymphoma involves several steps:\n1. *Physical Exam: Checking for swollen lymph nodes.\n2. **Blood Tests: To assess overall health and check for abnormalities.\n3. **Imaging Tests:\n   - **CT Scan: To identify enlarged lymph nodes or tumors.\n   - **PET Scan: To evaluate the extent of the disease.\n4. **Biopsy*: Removing a lymph node or part of it for examination."
+      ]
+    },
+    {
+      "tag": "pancreatic_cancer",
+      "queries": [
+        "What are the symptoms of pancreatic cancer?",
+        "How is pancreatic cancer diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of pancreatic cancer may include:\n- Jaundice (yellowing of the skin and eyes).\n- Unexplained weight loss.\n- Loss of appetite.\n- Abdominal pain that may radiate to the back.\n- Nausea and vomiting.\n- New-onset diabetes.\n- Fatigue.",
+        "Diagnosis of pancreatic cancer involves several steps:\n1. *Physical Exam: Checking for jaundice and abdominal tenderness.\n2. **Imaging Tests:\n   - **CT Scan: To visualize the pancreas and surrounding structures.\n   - **MRI: For detailed images of the pancreas.\n   - **Endoscopic Ultrasound: To obtain images and possibly a biopsy.\n3. **Biopsy: Taking a sample of pancreatic tissue for analysis.\n4. **Blood Tests*: Including CA 19-9, a tumor marker."
+      ]
+    },
+    {
+      "tag": "prostate_cancer",
+      "queries": [
+        "What are the symptoms of prostate cancer?",
+        "How is prostate cancer diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of prostate cancer may include:\n- Difficulty urinating or a weak urine stream.\n- Blood in urine or semen.\n- Painful urination.\n- Pain in the back, hips, or pelvis.\n- Unexplained weight loss.\n- Fatigue.",
+        "Diagnosis of prostate cancer involves several steps:\n1. *Digital Rectal Exam (DRE): To check for abnormalities in the prostate.\n2. **Prostate-Specific Antigen (PSA) Test: A blood test to measure PSA levels.\n3. **Imaging Tests:\n   - **Transrectal Ultrasound: To visualize the prostate.\n   - **MRI: For detailed imaging.\n4. **Biopsy*: Taking samples of prostate tissue for examination."
+      ]
+    },
+    {
+      "tag": "skin_cancer",
+      "queries": [
+        "What are the symptoms of skin cancer?",
+        "How is skin cancer diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of skin cancer may include:\n- A new growth or sore that doesn’t heal.\n- Changes in an existing mole (size, shape, color).\n- Itching, tenderness, or pain in a mole or spot.\n- Scaly patches or lesions.\n- Dark streaks under the nails.",
+        "Diagnosis of skin cancer involves several steps:\n1. *Physical Exam: Examination of the skin for suspicious lesions.\n2. **Biopsy: Removing a sample of skin for laboratory analysis.\n3. **Imaging Tests*: CT scans or MRIs may be used if cancer is suspected to have spread."
+      ]
+    },
+    {
+      "tag": "uterine_cancer",
+      "queries": [
+        "What are the symptoms of uterine cancer?",
+        "How is uterine cancer diagnosed?"
+      ],
+      "responses": [
+        "Symptoms of uterine cancer may include:\n- Abnormal vaginal bleeding (especially postmenopausal).\n- Pelvic pain or pressure.\n- Pain during intercourse.\n- Unexplained weight loss.\n- Changes in bowel or bladder habits.",
+        "Diagnosis of uterine cancer involves several steps:\n1. *Pelvic Exam: To check for abnormalities in the uterus.\n2. **Transvaginal Ultrasound: To visualize the uterus and measure the endometrial lining.\n3. **Endometrial Biopsy: Taking a sample of the uterine lining for analysis.\n4. **Imaging Tests*: CT or MRI scans to assess the extent of the disease."
+      ]
+    },
+    {
+      "tag": "kidney_cancer_overview",
+      "queries": [
+        "What is kidney cancer?",
+        "Can you explain kidney cancer?"
+      ],
+      "responses": [
+        "Kidney cancer, also known as renal cancer, originates in the kidneys, which are two bean-shaped organs located on each side of the spine. The most common type is renal cell carcinoma. Early detection is key, as symptoms may not appear until later stages."
+      ]
+    },
+    {
+      "tag": "kidney_cancer_symptoms",
+      "queries": [
+        "What are the symptoms of kidney cancer?",
+        "Can you list symptoms of kidney cancer?"
+      ],
+      "responses": [
+        "Symptoms of kidney cancer may include:\n\n- *Blood in the urine* (hematuria), which may be pink, red, or cola-colored.\n- *Persistent back pain* or pain on one side, below the ribs.\n- *Unintended weight loss.\n- **Fatigue.\n- **Intermittent fever.\n- **Loss of appetite.\n- **Anemia* or low red blood cell count.\n- *Swelling* in the legs or ankles.\n\nThese symptoms may overlap with other kidney-related conditions, so it’s important to consult a healthcare provider for an accurate diagnosis."
+      ]
+    },
+    {
+      "tag": "kidney_cancer_diagnosis",
+      "queries": [
+        "How is kidney cancer diagnosed?",
+        "What tests are done to diagnose kidney cancer?"
+      ],
+      "responses": [
+        "Diagnosis of kidney cancer involves several steps:\n\n1. *Physical Exam and History: Initial evaluation includes a physical exam and a review of personal and family medical history.\n2. **Urine and Blood Tests: Basic tests may show blood in the urine or abnormalities in blood chemistry that could indicate kidney issues.\n3. **Imaging Tests:\n   - **Ultrasound: To detect tumors or cysts in the kidney.\n   - **CT Scan (Computed Tomography): Provides detailed images to assess the tumor size and any spread to other areas.\n   - **MRI (Magnetic Resonance Imaging): May be used if further detail is needed or if CT is not suitable.\n   - **Bone Scan: If there’s a concern about cancer spreading to the bones.\n4. **Biopsy: A sample of kidney tissue may be taken, although it’s less common for kidney cancer because imaging often provides sufficient information.\n5. **Staging*: Once diagnosed, staging is done to understand the extent of cancer spread, typically ranging from Stage I (early) to Stage IV (advanced)."
+      ]
+    },
+    {
+      "tag": "kidney_cancer_early_detection",
+      "queries": [
+        "Why is early detection important for kidney cancer?",
+        "How can I improve my chances of early detection for kidney cancer?"
+      ],
+      "responses": [
+        "Early-stage kidney cancer is often curable, especially with surgical intervention."
+      ]
+    },
+    {
+      "tag": "colorectal_cancer_overview",
+      "queries": [
+        "What is colorectal cancer?",
+        "Can you explain colorectal cancer?"
+      ],
+      "responses": [
+        "Colorectal cancer, which includes both colon and rectal cancer, often develops over time from precancerous polyps in the lining of the colon or rectum."
+      ]
+    },
+    {
+      "tag": "colorectal_cancer_symptoms",
+      "queries": [
+        "What are the symptoms of colorectal cancer?",
+        "Can you list symptoms of colorectal cancer?"
+      ],
+      "responses": [
+        "Symptoms of colorectal cancer may include:\n\n1. *Changes in bowel habits: Diarrhea, constipation, or a feeling that the bowel does not empty completely.\n2. **Rectal bleeding* or blood in the stool (which may make stools appear dark).\n3. *Abdominal discomfort: Frequent cramps, gas, bloating, or pain.\n4. **Unexplained weight loss.\n5. **Fatigue or weakness.\n6. **Iron-deficiency anemia*: Due to chronic blood loss, resulting in fatigue and shortness of breath."
+      ]
+    },
+    {
+      "tag": "colorectal_cancer_diagnosis",
+      "queries": [
+        "How is colorectal cancer diagnosed?",
+        "What tests are done to diagnose colorectal cancer?"
+      ],
+      "responses": [
+        "Diagnosis of colorectal cancer involves several procedures:\n\n1. *Colonoscopy: A flexible tube with a camera is used to examine the entire colon and rectum for abnormal growths or polyps. Biopsies can be taken for analysis.\n2. **Flexible Sigmoidoscopy: Similar to a colonoscopy but focuses on the rectum and lower part of the colon.\n3. **CT Colonography (Virtual Colonoscopy): A non-invasive imaging technique using CT scans to create a detailed view of the colon.\n4. **Fecal Occult Blood Test (FOBT) or Fecal Immunochemical Test (FIT): Detects hidden blood in stool samples, which can be an early sign of colorectal cancer.\n5. **Stool DNA Test: Examines DNA markers from stool samples that may indicate the presence of cancer or polyps.\n6. **Blood Tests: Although not diagnostic for cancer itself, blood tests like Complete Blood Count (CBC) and liver function tests can provide clues about general health and detect any related issues.\n7. **Imaging Tests*: MRI, CT scans, and PET scans can assess the spread of cancer to other organs."
+      ]
+    },
+    {
+      "tag": "colorectal_cancer_early_detection",
+      "queries": [
+        "Why is early detection important for colorectal cancer?",
+        "How can I improve my chances of early detection for colorectal cancer?"
+      ],
+      "responses": [
+        "Early detection through screening is crucial for improving survival rates, as treatment can be more effective in the early stages."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_overview",
+      "queries": [
+        "What is bladder cancer?",
+        "Can you explain bladder cancer?"
+      ],
+      "responses": [
+        "Bladder cancer is a distinct condition characterized by the growth of cancerous cells in the bladder. It has different symptoms, risk factors, and diagnostic approaches compared to other cancers."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_symptoms",
+      "queries": [
+        "What are the symptoms of bladder cancer?",
+        "Can you list symptoms of bladder cancer?"
+      ],
+      "responses": [
+        "Symptoms of blader cancer include:\n\n1. *Blood in urine (hematuria)* – usually painless and the most common symptom.\n2. *Frequent urination.\n3. **Pain or burning sensation during urination.\n4. **Urgent need to urinate but little urine production.\n5. **Lower back pain on one side of the body*."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_diagnosis",
+      "queries": [
+        "How is bladder cancer diagnosed?",
+        "What tests are done to diagnose bladder cancer?"
+      ],
+      "responses": [
+        "Diagnosis of bladder cancer involves several steps:\n\n1. *Urinalysis* – tests for blood or cancer cells in the urine.\n2. *Cystoscopy* – a procedure using a cystoscope to look inside the bladder.\n3. *Biopsy* – a sample taken from the bladder for laboratory examination.\n4. *Imaging tests* – such as CT, MRI, or ultrasound to detect tumors and check if the cancer has spread."
+      ]
+    },
+    {
+      "tag": "breast_cancer_overview",
+      "queries": [
+        "What is breast cancer?",
+        "Can you explain breast cancer?"
+      ],
+      "responses": [
+        "Breast cancer is a distinct condition characterized by the growth of cancerous cells in the breast. It has different symptoms, risk factors, and diagnostic approaches compared to other cancers."
+      ]
+    },
+    {
+      "tag": "breast_cancer_symptoms",
+      "queries": [
+        "What are the symptoms of breast cancer?",
+        "Can you list symptoms of breast cancer?"
+      ],
+      "responses": [
+        "Symptoms of breast cancer include:\n\n1. *Lump or mass in the breast, often painless.\n2. **Change in the size, shape, or appearance of the breast.\n3. **Skin changes, such as dimpling or redness.\n4. **Nipple discharge, which could be clear or bloody.\n5. **Inverted nipple or changes in nipple shape.\n6. **Swelling or thickening in part of the breast or underarm area*."
+      ]
+    },
+    {
+      "tag": "breast_cancer_diagnosis",
+      "queries": [
+        "How is breast cancer diagnosed?",
+        "What tests are done to diagnose breast cancer?"
+      ],
+      "responses": [
+        "Diagnosis of breast cancer involves several steps:\n\n1. *Breast self-examination* – individuals can regularly check for unusual lumps or changes.\n2. *Mammogram* – X-ray of the breast to identify abnormal growths.\n3. *Ultrasound and MRI* – for further imaging, especially for those with dense breast tissue.\n4. *Biopsy* – extracting breast tissue to analyze cell type and aggressiveness.\n5. *Blood tests* – tumor marker tests like CA 15-3, although these are less commonly used for diagnosis but can help monitor."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_overview",
+      "queries": [
+        "What is bladder cancer?",
+        "Can you explain bladder cancer?"
+      ],
+      "responses": [
+        "Bladder cancer typically starts in the cells lining the bladder and may cause various symptoms. Recognizing these early symptoms can lead to earlier diagnosis and more effective treatment."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_symptoms",
+      "queries": [
+        "What are the symptoms of bladder cancer?",
+        "Can you list symptoms of bladder cancer?"
+      ],
+      "responses": [
+        "Symptoms of bladder cancer include:\n\n1. *Blood in Urine (Hematuria): The most common symptom, which may make urine look bright red or cola-colored. It can be intermittent and may not cause pain.\n2. **Frequent Urination: A sudden increase in the urge to urinate, often with minimal output each time.\n3. **Pain or Burning Sensation: A burning feeling or discomfort during urination.\n4. **Pelvic Pain: Discomfort or pain in the lower abdomen or pelvic region.\n5. **Back Pain: Lower back pain, especially on one side, can occur as the cancer progresses.\n6. **Fatigue and Weight Loss*: Unexplained fatigue or sudden weight loss can sometimes accompany cancer."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_diagnosis",
+      "queries": [
+        "How is bladder cancer diagnosed?",
+        "What tests are done to diagnose bladder cancer?"
+      ],
+      "responses": [
+        "Diagnosis of bladder cancer involves several steps:\n\n1. *Urinalysis and Urine Cytology: Testing a urine sample to check for blood or abnormal cells.\n2. **Cystoscopy: Inserting a cystoscope (a thin, lighted tube) through the urethra to view the bladder for abnormalities.\n3. **Biopsy (Transurethral Resection of Bladder Tumor - TURBT): During cystoscopy, if abnormal areas are observed, a biopsy can be performed to analyze tissue samples.\n4. **Imaging Tests: CT Scan or MRI to check for the spread of cancer; Ultrasound for initial assessment of the bladder; Intravenous Pyelogram (IVP) for X-rays of the urinary tract using contrast dye.\n5. **Urine Tumor Marker Tests*: Tests like NMP22, BTA, or UroVysion, which detect specific substances released by bladder cancer cells."
+      ]
+    },
+    {
+      "tag": "bladder_cancer_early_detection",
+      "queries": [
+        "How important is early detection of bladder cancer?",
+        "What should I do if I notice symptoms of bladder cancer?"
+      ],
+      "responses": [
+        "If you notice any unusual symptoms, especially blood in the urine, consult a healthcare provider for evaluation. Early detection improves treatment outcomes significantly."
+      ]
+    },
+    {
+      "tag": "common_cancer_types",
+      "queries": [
+        "What are common cancer types?",
+        "Can you list common cancers?"
+      ],
+      "responses": [
+        "Common cancer types include Bladder Cancer, Breast Cancer, Colorectal Cancer, Kidney (Renal Cell) Cancer, Lung Cancer, Lymphoma, Pancreatic Cancer, Prostate Cancer, Skin Cancer, and Uterine Cancer."
+      ]
+    },
+    {
+      "tag": "bladder_cancer",
+      "queries": [
+        "Tell me about bladder cancer.",
+        "What is bladder cancer?",
+        "Can you explain bladder cancer?"
+      ],
+      "responses": [
+        "Bladder Cancer occurs in the tissues of the bladder and is often detected through blood in urine or frequent urination."
+      ]
+    },
+    {
+      "tag": "breast_cancer",
+      "queries": [
+        "What is breast cancer?",
+        "Tell me about breast cancer.",
+        "Can you explain breast cancer?"
+      ],
+      "responses": [
+        "Breast Cancer is a malignancy that forms in the cells of the breasts and can affect both men and women."
+      ]
+    },
+    {
+      "tag": "colorectal_cancer",
+      "queries": [
+        "Can you explain colorectal cancer?",
+        "What do I need to know about colorectal cancer?",
+        "Tell me about colorectal cancer."
+      ],
+      "responses": [
+        "Colorectal Cancer affects the colon or rectum and is often screened for with colonoscopies."
+      ]
+    },
+    {
+      "tag": "kidney_cancer",
+      "queries": [
+        "What do I need to know about kidney cancer?",
+        "Tell me about kidney cancer.",
+        "What is kidney cancer?"
+      ],
+      "responses": [
+        "Kidney (Renal Cell) Cancer originates in the kidneys and may cause symptoms such as blood in urine or lower back pain."
+      ]
+    },
+    {
+      "tag": "lung_cancer",
+      "queries": [
+        "Tell me about lung cancer.",
+        "What is lung cancer?",
+        "Can you explain lung cancer?"
+      ],
+      "responses": [
+        "Lung Cancer is primarily caused by smoking and can lead to symptoms like a persistent cough or chest pain."
+      ]
+    },
+    {
+      "tag": "lymphoma",
+      "queries": [
+        "What is lymphoma?",
+        "Tell me about lymphoma.",
+        "Can you explain lymphoma?"
+      ],
+      "responses": [
+        "Lymphoma is a type of cancer that begins in the lymphatic system, with Hodgkin's and non-Hodgkin's lymphoma being the main types."
+      ]
+    },
+    {
+      "tag": "pancreatic_cancer",
+      "queries": [
+        "Give me information on pancreatic cancer.",
+        "What is pancreatic cancer?",
+        "Tell me about pancreatic cancer."
+      ],
+      "responses": [
+        "Pancreatic Cancer starts in the pancreas and is often diagnosed at an advanced stage, making it challenging to treat."
+      ]
+    },
+    {
+      "tag": "prostate_cancer",
+      "queries": [
+        "What should I know about prostate cancer?",
+        "Tell me about prostate cancer.",
+        "What is prostate cancer?"
+      ],
+      "responses": [
+        "Prostate Cancer is common in men and usually grows slowly, often detected through PSA tests."
+      ]
+    },
+    {
+      "tag": "skin_cancer",
+      "queries": [
+        "Explain skin cancer.",
+        "What is skin cancer?",
+        "Tell me about skin cancer."
+      ],
+      "responses": [
+        "Skin Cancer is the most common type of cancer in the U.S. and includes melanoma and non-melanoma types."
+      ]
+    },
+    {
+      "tag": "uterine_cancer",
+      "queries": [
+        "What is uterine cancer?",
+        "Tell me about uterine cancer.",
+        "Can you explain uterine cancer?"
+      ],
+      "responses": [
+        "Uterine Cancer occurs in the lining of the uterus and may present with abnormal bleeding."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "queries": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! I'm here to help you with cancer detection and prevention.",
+        "Hi there! How can I assist you with your health questions today?",
+        "Hey! What would you like to know about cancer awareness or prevention?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "queries": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Take care! Stay healthy.",
+        "Goodbye! Remember, knowledge is power in cancer prevention.",
+        "See you later! Don't hesitate to return with more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "queries": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "You're welcome! I'm here to help you.",
+        "Anytime! Your health is important.",
+        "My pleasure! Feel free to ask more questions."
+      ]
+    },
+    {
+      "tag": "cancer_detection",
+      "queries": [
+        "How is cancer detected?",
+        "What tests are used for cancer detection?",
+        "Can you explain cancer screening methods?"
+      ],
+      "responses": [
+        "Cancer is often detected through screenings, imaging tests, and biopsies. Early detection is crucial.",
+        "Common tests include mammograms, colonoscopies, and blood tests. It's important to discuss with your doctor."
+      ]
+    },
+    {
+      "tag": "cancer_prevention",
+      "queries": [
+        "What are some cancer prevention tips?",
+        "How can I reduce my risk of cancer?",
+        "Are there lifestyle changes that can prevent cancer?"
+      ],
+      "responses": [
+        "Maintain a healthy diet, exercise regularly, avoid tobacco, and limit alcohol consumption.",
+        "Regular screenings and vaccinations can also help in cancer prevention."
+      ]
+    },
+    {
+      "tag": "cancer_awareness",
+      "queries": [
+        "What is cancer awareness?",
+        "Why is cancer awareness important?",
+        "Can you provide information on cancer types?"
+      ],
+      "responses": [
+        "Cancer awareness involves educating people about cancer risks, symptoms, and prevention.",
+        "It's important to understand different types of cancer and their signs for early detection."
+      ]
+    },
+    {
+      "tag": "faqs",
+      "queries": [
+        "What are common questions about cancer?",
+        "Can you provide FAQs about cancer?",
+        "What should I know about cancer?"
+      ],
+      "responses": [
+        "Common questions include symptoms, treatment options, and prevention strategies. What would you like to know?",
+        "Feel free to ask any specific questions you have about cancer."
+      ]
+    },
+    {
+      "tag": "general_health",
+      "queries": [
+        "What are some general health tips?",
+        "How can I maintain good health?",
+        "What should I know about healthy living?"
+      ],
+      "responses": [
+        "Stay active, eat a balanced diet, get regular check-ups, and manage stress.",
+        "Good health practices can significantly reduce your risk of various diseases, including cancer."
+      ]
+    },
+    {
+      "tag": "chat_instruction",
+      "queries": [
+        "How do I use this chatbot?",
+        "What can you help me with?",
+        "Can you guide me on how to ask questions?"
+      ],
+      "responses": [
+        "You can ask me anything related to cancer detection, prevention, and general health.",
+        "Just type your question, and I'll do my best to provide you with accurate information."
+      ]
+    },
+    {
+      "tag": "tobacco_prevention",
+      "queries": [
+        "What are the resources for tobacco prevention?",
+        "How can I quit smoking?",
+        "What is the Great American Smokeout?"
+      ],
+      "responses": [
+        "The American Cancer Society provides various resources for tobacco prevention, including the Great American Smokeout event tools.",
+        "You can find information on electronic cigarettes and how to quit smoking through the ACS's tobacco control resources."
+      ]
+    },
+    {
+      "tag": "hpv_vaccination",
+      "queries": [
+        "What is the HPV vaccination?",
+        "How does the HPV vaccine prevent cancer?",
+        "What are the recommendations for HPV vaccination?"
+      ],
+      "responses": [
+        "The HPV vaccination helps prevent cancers caused by human papillomavirus . The American Cancer Society provides guidelines and resources for health professionals to encourage vaccination uptake.",
+        "Current recommendations for HPV vaccination emphasize its importance in preventing HPV-related cancers."
+      ]
+    },
+    {
+      "tag": "healthy_lifestyle",
+      "queries": [
+        "What are some healthy lifestyle choices?",
+        "How can I eat healthier?",
+        "What physical activities are recommended?"
+      ],
+      "responses": [
+        "Adopting a balanced diet, engaging in regular physical activity, and avoiding tobacco are key components of a healthy lifestyle.",
+        "The ACS provides guidelines for nutrition and physical activity to help reduce cancer risk."
+      ]
+    },
+    {
+      "tag": "environmental_approaches",
+      "queries": [
+        "What are environmental approaches to cancer prevention?",
+        "How can communities promote healthy living?",
+        "What legislation supports cancer prevention?"
+      ],
+      "responses": [
+        "Environmental approaches include advocating for healthy food environments and regulations against indoor tanning.",
+        "Community efforts can focus on creating healthy schools and promoting active living through local policies."
+      ]
+    },
+    {
+      "tag": "resources_for_health_professionals",
+      "queries": [
+        "What resources are available for health professionals?",
+        "How can I access cancer prevention fact sheets?",
+        "What toolkits are available for healthcare settings?"
+      ],
+      "responses": [
+        "The ACS offers fact sheets, infographics, and toolkits designed to assist health professionals in cancer prevention efforts.",
+        "The Healthy Healthcare Toolkit provides guidance on creating healthier food environments in healthcare settings."
+      ]
+    }
+  ]
+}

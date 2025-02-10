@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervical Cancer Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Cervical Cancer Prediction</h2>
+        <form action="/predict_cervical" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="report_pdf">Upload Cervical Cancer Report (PDF):</label>
+                <input type="file" class="form-control" id="report_pdf" name="report_pdf" required>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Predict</button>
+        </form>
+
+        {% if prediction %}
+            <div class="mt-4">
+                <h3>Prediction Result:</h3>
+                <p><strong>Diagnosis:</strong> {{ prediction }}</p>
+                <p><strong>Explanation:</strong></p>
+                <pre>{{ explanation }}</pre>
+            </div>
+        {% endif %}
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

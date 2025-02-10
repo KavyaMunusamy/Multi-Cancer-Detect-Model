@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report Analyzer Bot</title>
+</head>
+<body>
+  <h2>Upload Cancer Report File</h2>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">Upload File</button>
+  </form>
+  
+  <h2>Submit a Boolean Query</h2>
+  <form id="queryForm">
+    <label>Filename: <input type="text" id="filename" /></label><br>
+    <label>Query: <input type="text" id="query" /></label><br>
+    <button type="button" onclick="submitQuery()">Submit Query</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script>
+    function submitQuery() {
+      const filename = document.getElementById('filename').value;
+      const query = document.getElementById('query').value;
+      
+      fetch('/query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filename, query })
+      })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('results').innerHTML = JSON.stringify(data.results, null, 2);
+      })
+      .catch(error => console.error('Error:', error));
+    }
+  </script>
+</body>
+</html>
